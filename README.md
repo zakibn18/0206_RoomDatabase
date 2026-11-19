@@ -7,7 +7,7 @@ Datasiswa
 
 Detail siswa
 
-<img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/d2bc7f59-1453-419c-b500-48723f443213" />
+<img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/c94d7607-796e-40cb-8e62-0bd1dde37623" />
 
 
 # INSERT

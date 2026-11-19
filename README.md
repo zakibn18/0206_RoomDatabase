@@ -1,9 +1,19 @@
 # Hasil Running
+# READ
+Datasiswa
+<img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/0f6ba002-1e50-4992-a64f-a51eff22be0c" />
+Detail siswa
+<img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/d2bc7f59-1453-419c-b500-48723f443213" />
 
-<img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/39676697-dc6d-478b-8822-51d28d8c34b3" />
+# INSERT
+<img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/84b9c783-9551-4bfd-b733-d3a0ee5f81ca" />
 
-<img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/8d24309e-e286-4729-bcd3-3b57ff9f36c9" />
+# UPDATE
+<img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/9f5087ac-dc10-40c5-91f9-5d1f62a1f383" />
+after update
+<img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/874ec207-b990-4e5b-b462-1ff5369cc6e9" />
 
-<img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/9edf9b70-80bb-4cd2-a041-2ef99e1ff8f3" />
-
-<img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/14cafb80-9193-4aa1-872f-bd81c3d43ccf" />
+# DELETE
+<img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/16fa36e3-c6b3-40de-b039-792df81fd07f" />
+after delete
+<img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/7d47eaec-e43e-42ed-84ca-57e714094eef" />

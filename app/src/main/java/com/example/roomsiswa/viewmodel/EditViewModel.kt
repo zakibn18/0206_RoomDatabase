@@ -6,7 +6,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.roomsiswa.repositori.RepositoriSiswa
 import com.example.roomsiswa.view.route.DestinasiDetailSiswa
-import com.example.roomsiswa.view.route.DestinasiEditSiswa
 import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
@@ -27,5 +26,10 @@ class EditViewModel(
                 .first()
                 .toUiStateSiswa(isEntryValid = true)
         }
+    }
+
+    fun updateUiState(detailSiswa: DetailSiswa) {
+        uiStateSiswa =
+            UIStateSiswa(detailSiswa = detailSiswa, isEntryValid = validasiInput(detailSiswa))
     }
 }

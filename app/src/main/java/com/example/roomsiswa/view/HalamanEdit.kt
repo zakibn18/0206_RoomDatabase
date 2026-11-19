@@ -1,5 +1,6 @@
 package com.example.roomsiswa.view
 
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
@@ -10,6 +11,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.roomsiswa.view.route.DestinasiEditSiswa
 import com.example.roomsiswa.viewmodel.EditViewModel
 import com.example.roomsiswa.viewmodel.PenyediaViewModel
+import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -30,3 +32,16 @@ fun EditSiswaScreen(
         modifier = modifier
     ) { innerPadding ->
         val coroutineScope = rememberCoroutineScope()
+        EntrySiswaBody(
+            uiStateSiswa = viewModel.uiStateSiswa,
+            onSiswaValueChange = viewModel::updateUiState,
+            onSaveClick = {
+                coroutineScope.launch {
+                    viewModel.updateSiswa()
+                    navigateBack()
+                }
+            },
+            modifier = Modifier.padding(innerPadding)
+        )
+    }
+}
